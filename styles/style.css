@@ -8,3 +8,28 @@ body {
   background: white;
   color: black;
 }
+
+.fm-page {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.fm-menu-container {
+width: 30%;
+position: relative;
+overflow: hidden;
+}
+
+.fm-koru {
+width: 25%;
+float: left;
+}
+
+.fm-koru--top {
+
+}
+
+.fm-koru--bottom {
+
+}
