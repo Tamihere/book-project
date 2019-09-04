@@ -34,9 +34,26 @@ overflow: hidden;
   overflow: hidden;
 }
 
+.fm-koru-container--yellow {
+  margin-left: 8%;
+}
+
+.fm-koru-container--green {
+  margin-left: -33%;
+}
+
+.fm-koru-container--blue {
+  margin-left: -9%;
+}
+
+.fm-koru-container--purple {
+  margin-left: -32.7%;
+}
+
 .fm-koru {
 width: 100%;
 position: absolute;
+z-index: 100;
 }
 
 .fm-koru--top {
@@ -51,8 +68,12 @@ bottom: 0%;
 margin-left: 1%;
 }
 
+.fm-koru--yellow {
+  z-index: 200;
+}
+
 .fm-koru-stem {
-  width: 32.1%;
+  width: 32.2%;
   height: 100%;
   margin-top: 50%;
   margin-right: 2%;
@@ -60,22 +81,22 @@ margin-left: 1%;
 }
 
 .fm-koru-stem2 {
-  width: 32.5%;
+  width: 32.6%;
   height: 100%;
   margin-top: 50%;
-  margin-right: 1.5%;
+  margin-right: 2%;
   float: right;
 }
 
 .fm-koru-stem3 {
-  width: 32.5%;
+  width: 32.6%;
   height: 90%;
-  margin-left: 1.5%;
+  margin-left: 0.5%;
   float: left;
 }
 
 .fm-koru-stem4 {
-  width: 32.5%;
+  width: 35%;
   height: 90%;
   float: left;
 }
