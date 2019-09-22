@@ -19,6 +19,19 @@ img {
   position: relative;
 }
 
+.fm-yellow-container {
+  width: 50%;
+  height: 100%;
+  float: right;
+  position: relative;
+  overflow: hidden;
+}
+
+.fm-yellow-container--sun {
+  width: 34%;
+  float: right;
+}
+
 .fm-menu-container {
 width: 30%;
 height: 100%;

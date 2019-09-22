@@ -19,6 +19,21 @@ img {
   position: relative;
 }
 
+.fm-blue-container {
+  width: 80%;
+  height: 100%;
+  float: right;
+  position: relative;
+  overflow: hidden;
+}
+
+.fm-blue-container--waka {
+  width: 30%;
+  margin-right: 20%;
+  margin-top: 20%;
+  float: right;
+}
+
 .fm-menu-container {
 width: 30%;
 height: 100%;

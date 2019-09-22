@@ -19,6 +19,19 @@ img {
   position: relative;
 }
 
+.fm-green-container {
+  width: 50%;
+  height: 100%;
+  float: right;
+  position: relative;
+  overflow: hidden;
+}
+
+.fm-green-container--koru {
+  width: 70%;
+  float: right;
+}
+
 .fm-menu-container {
 width: 30%;
 height: 100%;
