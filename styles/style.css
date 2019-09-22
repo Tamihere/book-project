@@ -101,6 +101,10 @@ margin-left: 1%;
   float: right;
 }
 
+.a {
+  z-index: 500;
+}
+
 .fm-koru-stem--green {
   background-color: #90C960;
 }

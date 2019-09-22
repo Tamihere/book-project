@@ -19,6 +19,24 @@ img {
   position: relative;
 }
 
+.fm-purple-container {
+  width: 50%;
+  height: 100%;
+  float: right;
+  position: relative;
+  overflow: hidden;
+}
+
+.fm-purple-container--moon {
+  width: 30%;
+  float: right;
+}
+
+.fm-purple-container--stars {
+  width: 35%;
+  float: right;
+}
+
 .fm-menu-container {
 width: 30%;
 height: 100%;
