@@ -24,7 +24,7 @@ img {
 	width: 10%;
 	height: 100vh;
 	position: relative;
-	overflow: hidden;
+	overflow: visible;
 }
 
 .tk-menu-stem {
@@ -33,6 +33,7 @@ img {
 	height: 90vh;
   /* This is the stem space at the top */
   margin-top: 5vh;
+  margin-bottom: 5vh;
 	display: block;
 	float: left;
   position: relative;
@@ -60,9 +61,22 @@ img {
   width: 230%;
 }
 
+.tk-menu-stem-koru--front {
+  z-index: 110;
+}
+
+.tk-menu-stem-koru--back {
+  z-index: 100;
+}
+
 .tk-menu-stem-koru--top {
   top: -5vh;
   right: 0;
+}
+
+.tk-menu-stem-koru--bottom {
+  bottom: -5vh;
+  left: 0;
 }
 
 /* // .tk-menu-top {
