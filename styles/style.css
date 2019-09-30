@@ -1,122 +1,101 @@
+
 /* Format for applying styling rules */
 [selector] {
-  [property]: [value];
+[property]: [value];
 }
 
 /* Global Styles go here */
 body {
-  background: white;
-  color: black;
+background: white;
+color: black;
+margin: 0;
 }
 
 img {
-  width: 100%;
+width: 100%;
 }
 
 .fm-page {
-  width: 100%;
-  height: 100vh;
-  position: relative;
-}
-
-.fm-menu-container {
-width: 30%;
-height: 100%;
-position: relative;
-overflow: hidden;
-}
-
-.fm-koru-container {
-  width: 25%;
-  height: 100%;
-  float: left;
-  position: relative;
-  overflow: hidden;
-}
-
-.fm-koru-container--yellow {
-  margin-left: 8%;
-}
-
-.fm-koru-container--green {
-  margin-left: -33%;
-}
-
-.fm-koru-container--blue {
-  margin-left: -9%;
-}
-
-.fm-koru-container--purple {
-  margin-left: -32.7%;
-}
-
-.fm-koru {
 width: 100%;
+height: 100vh;
+position: relative;
+}
+
+.tk-menu {
+width: 10%;
+height: 100vh;
+margin-left: 2%;
+position: relative;
+overflow: visible;
+}
+
+.tk-menu-stem {
+width: 25%;
+/* This is the stem height */
+height: 90vh;
+/* This is the stem space at the top */
+margin-top: 5vh;
+margin-bottom: 5vh;
+display: block;
+float: left;
+position: relative;
+}
+
+.tk-menu-stem--yellow {
+background-color: #E5DF19;
+}
+
+.tk-menu-stem--green {
+background-color: #90C960;
+}
+
+.tk-menu-stem--blue {
+background-color: #88C5DD;
+}
+
+.tk-menu-stem--purple {
+background-color: #633D6B;
+}
+
+.tk-menu-stem-koru {
 position: absolute;
+/* This is the size of the koru, relative to the stem size */
+width: 295%;
+}
+
+.tk-menu-stem-koru--front {
+z-index: 110;
+}
+
+.tk-menu-stem-koru--back {
 z-index: 100;
 }
 
-.fm-koru--top {
-top: 0%;
+.tk-menu-stem-koru--top {
+top: -5vh;
+right: -2px;
 }
 
-.fm-koru--bottom {
-bottom: 0%;
+.tk-menu-stem-koru--bottom {
+bottom: -5vh;
+left: -2px;
 }
 
-.fm-koru--right {
-margin-left: 1%;
-}
-
-.fm-koru--yellow {
-  z-index: 200;
-}
-
-.fm-koru-stem {
-  width: 32.6%;
-  height: 90%;
-  margin-left: 0.5%;
-  float: left;
-}
-
-.fm-koru-stem2 {
-  width: 32.2%;
-  height: 100%;
-  margin-top: 50%;
-  margin-right: 2%;
-  float: right;
-}
-
-.fm-koru-stem3 {
-  width: 35%;
-  height: 90%;
-  float: left;
-}
-
-.fm-koru-stem4 {
-  width: 32.2%;
-  height: 100%;
-  margin-top: 50%;
-  margin-right: 2.4%;
-  float: right;
-}
-
-.a {
-  z-index: 500;
-}
-
-.fm-koru-stem--green {
-  background-color: #90C960;
-}
-
-.fm-koru-stem--purple {
-  background-color: #633D6B;
-}
-
-.fm-koru-stem--yellow {
-  background-color: #E5DF19;
-}
-
-.fm-koru-stem--blue {
-  background-color: #88C5DD;
-}
+/* // .tk-menu-top {
+// 	position: absolute;
+// 	top: 0;
+// 	right: 0;
+// }
+// .tk-menu-bottom {
+// 	position: absolute;
+// 	bottom: 0;
+// 	left: 0;
+// 	z-index: 100;
+// }
+// .tk-placeholder-circle {
+// 	border-radius: 50%;
+// 	width: 100px;
+// 	height: 100px;
+// 	background-color: orange;
+// 	display: block;
+// } */
