@@ -29,9 +29,13 @@ img {
 
 .tk-menu-stem {
 	width: 25%;
-	height: 100%;
+  /* This is the stem height */
+	height: 90vh;
+  /* This is the stem space at the top */
+  margin-top: 5vh;
 	display: block;
 	float: left;
+  position: relative;
 }
 
 .tk-menu-stem--yellow {
@@ -48,6 +52,17 @@ img {
 
 .tk-menu-stem--purple {
 	background-color: #633D6B;
+}
+
+.tk-menu-stem-koru {
+  position: absolute;
+  /* This is the size of the koru, relative to the stem size */
+  width: 230%;
+}
+
+.tk-menu-stem-koru--top {
+  top: -5vh;
+  right: 0;
 }
 
 /* // .tk-menu-top {
