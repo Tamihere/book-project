@@ -24,16 +24,16 @@ position: relative;
 .tk-title {
   width: 50%;
   height: 100vh;
-  font-size: 25px;
-  padding: 10px;
+  float: right;
+  font-size: 100px;
   color: black;
-  z-index: 200;
+  position: relative;
 }
 
 .tk-menu {
 width: 10%;
 height: 100vh;
-margin-left: 2%;
+margin-left: 2.5%;
 position: relative;
 overflow: visible;
 }
