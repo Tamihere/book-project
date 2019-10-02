@@ -13,23 +13,24 @@ img {
   width: 100%;
 }
 
-.fm-page {
+.tk-page {
   width: 100%;
   height: 100vh;
   position: relative;
 }
 
-.fm-blue-container {
-  width: 80%;
-  height: 100%;
-  float: right;
+.tk-blue-container {
+  width: 10%;
+  height: 100vh;
   position: relative;
   overflow: hidden;
 }
 
-.fm-blue-container--waka {
-  width: 30%;
-  margin-right: 20%;
-  margin-top: 20%;
+.tk-blue-container-wave {
+  width: 100%;
+  height: 110vh;
+  margin-top: -5%;
+  margin-left: 0%;
   float: right;
-}
+  position: absolute;
+  }
