@@ -15,10 +15,19 @@ img {
 width: 100%;
 }
 
-.fm-page {
+.tk-page {
 width: 100%;
 height: 100vh;
 position: relative;
+}
+
+.tk-title {
+  width: 50%;
+  height: 100vh;
+  font-size: 25px;
+  padding: 10px;
+  color: black;
+  z-index: 200;
 }
 
 .tk-menu {
@@ -32,10 +41,10 @@ overflow: visible;
 .tk-menu-stem {
 width: 25%;
 /* This is the stem height */
-height: 90vh;
+height: 86vh;
 /* This is the stem space at the top */
-margin-top: 5vh;
-margin-bottom: 5vh;
+margin-top: 7vh;
+margin-bottom: 7vh;
 display: block;
 float: left;
 position: relative;
@@ -60,7 +69,7 @@ background-color: #633D6B;
 .tk-menu-stem-koru {
 position: absolute;
 /* This is the size of the koru, relative to the stem size */
-width: 295%;
+width: 305%;
 }
 
 .tk-menu-stem-koru--front {
@@ -72,13 +81,13 @@ z-index: 100;
 }
 
 .tk-menu-stem-koru--top {
-top: -5vh;
+top: -7vh;
 right: -2px;
 }
 
 .tk-menu-stem-koru--bottom {
-bottom: -5vh;
-left: -2px;
+bottom: -7vh;
+left: -1px;
 }
 
 /* // .tk-menu-top {

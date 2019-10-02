@@ -20,14 +20,17 @@ img {
 }
 
 .fm-yellow-container {
-  width: 50%;
-  height: 100%;
-  float: right;
+  width: 10%;
+  height: 100vh;
   position: relative;
   overflow: hidden;
 }
 
 .fm-yellow-container--sun {
-  width: 34%;
+  width: 80%;
+  height: 100vh;
+  margin-left: 5%;
   float: right;
+  position: relative;
+  }
 }
