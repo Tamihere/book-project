@@ -9,6 +9,10 @@ body {
   color: black;
 }
 
+.MauisHook {
+  cursor: url(file:///Users/toka/Desktop/theme-blue-cursor.png) 20 70, auto;
+}
+
 img {
   width: 100%;
 }

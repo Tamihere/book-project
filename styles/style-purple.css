@@ -9,6 +9,10 @@ body {
   color: black;
 }
 
+.Whetu {
+  cursor: url(file:///Users/toka/Desktop/theme-purple-cursor.png) 36 36, auto;
+}
+
 img {
   width: 100%;
 }
