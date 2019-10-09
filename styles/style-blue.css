@@ -24,17 +24,56 @@ img {
 }
 
 .tk-blue-container {
-  width: 10%;
+  width: 100%;
   height: 100vh;
   position: relative;
   overflow: hidden;
 }
 
-.tk-blue-container-wave {
+.tk-blue-container--wave {
   width: 100%;
-  height: 110vh;
-  margin-top: -5%;
-  margin-left: 0%;
+  height: 120vh;
+  margin-top: -10%;
   float: right;
   position: absolute;
-  }
+}
+
+.tk-ika-container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.tk-ika-container--ika1 {
+  width: 10%;
+  height: 10vh;
+  padding-top: 40%;
+  padding-left: 20%;
+  position: absolute;
+}
+
+.tk-ika-container--ika2 {
+  width: 10%;
+  height: 10vh;
+  padding-top: 35%;
+  padding-left: 40%;
+  position: absolute;
+}
+
+.tk-ika-container--ika3 {
+  width: 10%;
+  height: 10vh;
+  padding-top: 45%;
+  padding-left: 60%;
+  position: absolute;
+}
+
+.tk-ika-container--ika4 {
+  width: 10%;
+  height: 10vh;
+  padding-top: 40%;
+  padding-left: 80%;
+  position: absolute;
+}
