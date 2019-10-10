@@ -23,11 +23,27 @@ img {
 
 .tk-title {
   width: 50%;
-  height: 100vh;
+  height: 20vh;
   float: right;
   font-size: 100px;
+  left: 15%;
   color: black;
-  position: relative;
+  position: absolute;
+  overflow: hidden;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%
+  }
 }
 
 .tk-menu {
