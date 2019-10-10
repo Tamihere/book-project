@@ -37,9 +37,9 @@ img {
 
 .tk-yellow-container--ra {
   width: 30%;
-  position: fixed;
+  position: absolute;
   top: 70vh;
-  left: 919px;
+  left: 64%;
 /*// change animation time for the fish to change speed */
   animation: rising-sun 7s;
   z-index: 200;
