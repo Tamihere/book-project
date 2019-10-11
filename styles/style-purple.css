@@ -21,26 +21,44 @@ img {
   width: 100%;
   height: 100vh;
   position: relative;
+  overflow: hidden;
 }
 
 .tk-purple-container {
   width: 100%;
   height: 100vh;
   position: relative;
-  overflow: hidden;
 }
 
 .tk-purple-container--stars {
-  width: 90%;
+  width: 92%;
   height: 100vh;
-  margin-left: 7%;
+  padding-left: 8%;
   position: absolute;
 }
 
 .tk-purple-container--moon {
   width: 20%;
-  height: 100vh;
-  margin-left: 80%;
   position: absolute;
-  z-index: 100;
+  top: 5vh;
+  left: 70%;
+/*// change animation time for the fish to change speed */
+  animation: rising-moon 12s;
+  z-index: 200;
+}
+
+@keyframes rising-moon {
+  0% {
+    margin-left: -120vw;
+    margin-top: 100%;
+  }
+
+  55% {
+    margin-top: 1vw;
+  }
+
+  100% {
+    margin-left: 0vw;
+    margin-top: 0%;
+  }
 }

@@ -21,12 +21,13 @@ img {
   width: 100%;
   height: 100vh;
   position: relative;
+  overflow: hidden;
 }
 
 .tk-blue-container {
   width: 100%;
   height: 100vh;
-  position: relative;
+  position: absolute;
   overflow: hidden;
 }
 
@@ -47,7 +48,7 @@ img {
 }
 
 .tk-ika-container--ika1 {
-  width: 8%;
+  width: 5%;
   height: 10vh;
   padding-top: 45%;
   padding-left: 20%;
@@ -55,15 +56,15 @@ img {
 }
 
 .tk-ika-container--ika2 {
-  width: 8%;
+  width: 5%;
   height: 10vh;
   padding-top: 38%;
   padding-left: 40%;
   position: absolute;
 }
 
-.tk-ika-container--ika4 {
-  width: 8%;
+.tk-ika-container--ika3 {
+  width: 5%;
   height: 10vh;
   padding-top: 40%;
   padding-left: 80%;
@@ -71,7 +72,7 @@ img {
 }
 
 .tk-ika1 {
-  width: 10%;
+  width: 7%;
   position: fixed;
   top: 70vh;
   left: 0%;
@@ -106,7 +107,7 @@ img {
 }
 
 .tk-ika2 {
-  width: 10%;
+  width: 7%;
   position: fixed;
   top: 70vh;
   left: 0%;
@@ -141,7 +142,7 @@ img {
 }
 
 .tk-ika3 {
-  width: 10%;
+  width: 7%;
   position: fixed;
   top: 70vh;
   left: 0%;
@@ -177,5 +178,26 @@ img {
     margin-left: -20vw;
     margin-top: 1%;
     transform: rotate(0deg) scalex(-1);
+  }
+}
+
+.tk-waka {
+  width: 30%;
+  position: fixed;
+  top: 35vh;
+  left: 0%;
+/*// change animation time for the fish to change speed */
+  animation: moving-waka 20s infinite;
+  z-index: 200;
+}
+
+@keyframes moving-waka {
+  0% {
+    margin-left: 110vw;
+    margin-top: 3%;
+  }
+
+  100% {
+    margin-left: -50vw;
   }
 }
