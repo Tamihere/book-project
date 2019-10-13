@@ -13,21 +13,24 @@ img {
   width: 100%;
 }
 
-.fm-page {
+.tk-page {
   width: 100%;
   height: 100vh;
-  position: relative;
-}
-
-.fm-green-container {
-  width: 50%;
-  height: 100%;
-  float: right;
   position: relative;
   overflow: hidden;
 }
 
-.fm-green-container--koru {
-  width: 70%;
+.tk-green-container {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  overflow: hidden;
+}
+
+.tk-green-container--koru {
+  width: 100%;
+  height: 120vh;
+  left: 5%;
   float: right;
+  position: absolute;
 }
