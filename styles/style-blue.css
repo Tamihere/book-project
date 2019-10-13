@@ -75,7 +75,6 @@ img {
   width: 7%;
   position: fixed;
   top: 70vh;
-  left: 0%;
 /*// change animation time for the fish to change speed */
   animation: swimming-fish1 8s infinite;
   z-index: 200;
@@ -110,7 +109,6 @@ img {
   width: 7%;
   position: fixed;
   top: 70vh;
-  left: 0%;
 /*// change animation time for the fish to change speed */
   animation: swimming-fish2 7s infinite;
   z-index: 200;
@@ -145,7 +143,6 @@ img {
   width: 7%;
   position: fixed;
   top: 70vh;
-  left: 0%;
 /*// change animation time for the fish to change speed */
   animation: swimming-fish3 6s infinite;
   z-index: 200;
@@ -185,7 +182,6 @@ img {
   width: 30%;
   position: fixed;
   top: 35vh;
-  left: 0%;
 /*// change animation time for the fish to change speed */
   animation: moving-waka 20s infinite;
   z-index: 200;
