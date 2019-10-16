@@ -29,7 +29,11 @@ img {
 
 .tk-koru {
   width: 100%;
-  position: fixed;
+  height: 100vh;
+  position: absolute;
+  background-image: url("../assets/theme-green-koru.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 /*// change animation time for the fish to change speed */
   animation: reveal 8s;
   z-index: 200;
