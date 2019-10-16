@@ -35,6 +35,9 @@ img {
   height: 100vh;
   padding-left: 8%;
   position: absolute;
+  background-image: url("../assets/theme-purple-stars.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .tk-purple-container--moon {
@@ -60,5 +63,12 @@ img {
   100% {
     margin-left: 0vw;
     margin-top: 0%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .tk-purple-container--moon {
+    width: 40%;
+    left: 50%;
   }
 }
