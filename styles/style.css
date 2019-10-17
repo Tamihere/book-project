@@ -107,8 +107,51 @@ img {
   left: -1px;
 }
 
+/*// iPad & iPad */
+@media only screen and (max-width: 1400px) {
+  .tk-menu {
+    width: 14%;
+    left: 1%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .tk-menu {
+    width: 20%;
+    left: 2.5%
+  }
+}
+
+/*// iPhone 6/7/8 Plus */
+@media only screen and (max-width: 500px) {
+  .tk-menu {
+    width: 25%;
+  }
+
+  .tk-menu-stem-koru--top {
+    top: -7vh;
+    right: -1px;
+  }
+
+  .tk-menu-stem-koru--bottom {
+    bottom: -7vh;
+    left: -2px;
+  }
+}
+
+/*// iPhone X */
 @media only screen and (max-width: 400px) {
   .tk-menu {
     width: 25%;
+  }
+
+  .tk-menu-stem-koru--top {
+    top: -7vh;
+    right: -1px;
+  }
+
+  .tk-menu-stem-koru--bottom {
+    bottom: -7vh;
+    left: -2px;
   }
 }

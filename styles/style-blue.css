@@ -9,10 +9,6 @@ body {
   color: black;
 }
 
-.MauisHook {
-  cursor: url(file:///Users/toka/Desktop/theme-blue-cursor.png) 20 70, auto;
-}
-
 img {
   width: 100%;
 }
@@ -34,37 +30,29 @@ img {
   width: 100%;
   float: right;
   position: absolute;
-  bottom: 0%;
+  bottom: -1%;
 }
 
 .tk-ika-container {
   width: 100%;
-  height: 100vh;
   position: relative;
   overflow: hidden;
+  bottom: 0%;
   z-index: 100;
 }
 
 .tk-ika-container--ika1 {
   width: 5%;
   height: 10vh;
-  padding-top: 45%;
-  padding-left: 20%;
+  padding-bottom: 0;
+  padding-left: 30%;
   position: absolute;
 }
 
 .tk-ika-container--ika2 {
   width: 5%;
   height: 10vh;
-  padding-top: 38%;
-  padding-left: 40%;
-  position: absolute;
-}
-
-.tk-ika-container--ika3 {
-  width: 5%;
-  height: 10vh;
-  padding-top: 40%;
+  padding-bottom: 5%;
   padding-left: 80%;
   position: absolute;
 }
@@ -72,7 +60,7 @@ img {
 .tk-ika1 {
   width: 7%;
   position: fixed;
-  top: 70vh;
+  bottom: 3vh;
 /*// change animation time for the fish to change speed */
   animation: swimming-fish1 8s infinite;
   z-index: 200;
@@ -81,7 +69,7 @@ img {
 @keyframes swimming-fish1 {
   0% {
     margin-left: -20vw;
-    margin-top: 2;
+    margin-bottom: 2;
   }
 
   25% {
@@ -89,8 +77,8 @@ img {
   }
 
   50% {
-    margin-top: 40vw;
-    margin-top: 4%;
+    margin-left: 40vw;
+    margin-bottom: 4%;
   }
 
   75% {
@@ -99,14 +87,14 @@ img {
 
   100% {
     margin-left: 120vw;
-    margin-top: 9%;
+    margin-bottom: 9%;
   }
 }
 
 .tk-ika2 {
   width: 7%;
   position: fixed;
-  top: 70vh;
+  bottom: 2vh;
 /*// change animation time for the fish to change speed */
   animation: swimming-fish2 7s infinite;
   z-index: 200;
@@ -115,7 +103,7 @@ img {
 @keyframes swimming-fish2 {
   0% {
     margin-left: -20vw;
-    margin-top: 2;
+    margin-bottom: 2%;
   }
 
   25% {
@@ -123,8 +111,8 @@ img {
   }
 
   50% {
-    margin-top: 50vw;
-    margin-top: 4%;
+    margin-left: 50vw;
+    margin-bottom: 4%;
   }
 
   75% {
@@ -133,14 +121,14 @@ img {
 
   100% {
     margin-left: 110vw;
-    margin-top: -1%;
+    margin-bottom: -1%;
   }
 }
 
 .tk-ika3 {
   width: 7%;
   position: fixed;
-  top: 70vh;
+  bottom: 4vh;
 /*// change animation time for the fish to change speed */
   animation: swimming-fish3 6s infinite;
   z-index: 200;
@@ -149,7 +137,7 @@ img {
 @keyframes swimming-fish3 {
   0% {
     margin-left: 110vw;
-    margin-top: 7%;
+    margin-bottom: 7%;
     transform: rotate(0deg) scalex(-1);
   }
 
@@ -159,8 +147,8 @@ img {
   }
 
   50% {
-    margin-top: 50vw;
-    margin-top: 12%;
+    margin-left: 50vw;
+    margin-bottom: 12%;
     transform: rotate(0deg) scalex(-1);
   }
 
@@ -171,7 +159,7 @@ img {
 
   100% {
     margin-left: -20vw;
-    margin-top: 1%;
+    margin-bottom: 1%;
     transform: rotate(0deg) scalex(-1);
   }
 }
@@ -179,7 +167,7 @@ img {
 .tk-waka {
   width: 30%;
   position: fixed;
-  top: 35vh;
+  bottom: 40vh;
 /*// change animation time for the fish to change speed */
   animation: moving-waka 20s infinite;
   z-index: 200;
@@ -188,10 +176,14 @@ img {
 @keyframes moving-waka {
   0% {
     margin-left: 110vw;
-    margin-top: 3%;
+    margin-bottom: 3%;
   }
 
   100% {
     margin-left: -50vw;
   }
+}
+
+@media only screen and (max-width: 400px) {
+
 }
