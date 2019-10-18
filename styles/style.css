@@ -107,7 +107,7 @@ img {
   left: -1px;
 }
 
-/*// iPad & iPad */
+/*// iPad Pro */
 @media only screen and (max-width: 1400px) {
   .tk-menu {
     width: 14%;
@@ -122,10 +122,16 @@ img {
   }
 }
 
-/*// iPhone 6/7/8 Plus */
+/*// iPhone 6/7/8 Plus & Pixel 2 */
 @media only screen and (max-width: 500px) {
   .tk-menu {
     width: 25%;
+  }
+
+  .tk-menu-stem-koru {
+    position: absolute;
+  /* This is the size of the koru, relative to the stem size */
+    width: 302%;
   }
 
   .tk-menu-stem-koru--top {
@@ -135,7 +141,7 @@ img {
 
   .tk-menu-stem-koru--bottom {
     bottom: -7vh;
-    left: -2px;
+    left: -1px;
   }
 }
 
@@ -143,6 +149,13 @@ img {
 @media only screen and (max-width: 400px) {
   .tk-menu {
     width: 25%;
+    left: 4%;
+  }
+
+  .tk-menu-stem-koru {
+    position: absolute;
+  /* This is the size of the koru, relative to the stem size */
+    width: 300%;
   }
 
   .tk-menu-stem-koru--top {
@@ -152,6 +165,6 @@ img {
 
   .tk-menu-stem-koru--bottom {
     bottom: -7vh;
-    left: -2px;
+    left: -1px;
   }
 }

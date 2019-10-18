@@ -180,10 +180,153 @@ img {
   }
 
   100% {
-    margin-left: -50vw;
+    margin-left: -150vw;
   }
 }
 
-@media only screen and (max-width: 400px) {
+/*// iPad Pro */
+@media only screen and (max-width: 1400px) {
+  .tk-waka {
+    width: 30%;
+    position: fixed;
+    bottom: 30vh;
+  /*// change animation time for the fish to change speed */
+    animation: moving-waka 20s infinite;
+    z-index: 200;
+  }
 
+  @keyframes moving-waka {
+    0% {
+      margin-left: 110vw;
+      margin-bottom: 3%;
+    }
+
+    100% {
+      margin-left: -100vw;
+    }
+  }
+}
+
+/*// iPhone 6/7/8 Plus & Pixel 2 */
+@media only screen and (max-width: 500px) {
+  .tk-blue-container--wave {
+    width: 200%;
+    float: right;
+    position: absolute;
+    bottom: -1%;
+  }
+
+  .tk-ika1 {
+    width: 15%;
+    position: fixed;
+    bottom: 3vh;
+  /*// change animation time for the fish to change speed */
+    animation: swimming-fish1 8s infinite;
+    z-index: 200;
+  }
+
+  .tk-ika2 {
+    width: 10%;
+    position: fixed;
+    bottom: 2vh;
+  /*// change animation time for the fish to change speed */
+    animation: swimming-fish2 7s infinite;
+    z-index: 200;
+  }
+
+  .tk-ika3 {
+    width: 12%;
+    position: fixed;
+    bottom: 4vh;
+  /*// change animation time for the fish to change speed */
+    animation: swimming-fish3 6s infinite;
+    z-index: 200;
+  }
+
+  .tk-ika-container--ika1 {
+    width: 10%;
+    height: 10vh;
+    padding-bottom: 2%;
+    padding-left: 35%;
+    position: absolute;
+  }
+
+  .tk-ika-container--ika2 {
+    width: 13%;
+    height: 10vh;
+    padding-bottom: 0%;
+    padding-left: 80%;
+    position: absolute;
+  }
+
+  .tk-waka {
+    width: 50%;
+    position: fixed;
+    bottom: 25vh;
+  /*// change animation time for the fish to change speed */
+    animation: moving-waka 20s infinite;
+    z-index: 200;
+  }
+}
+
+/*// iPhone X */
+@media only screen and (max-width: 400px) {
+  .tk-blue-container--wave {
+    width: 170%;
+    float: right;
+    position: absolute;
+    bottom: -1%;
+  }
+
+  .tk-ika1 {
+    width: 15%;
+    position: fixed;
+    bottom: 3vh;
+  /*// change animation time for the fish to change speed */
+    animation: swimming-fish1 8s infinite;
+    z-index: 200;
+  }
+
+  .tk-ika2 {
+    width: 10%;
+    position: fixed;
+    bottom: 2vh;
+  /*// change animation time for the fish to change speed */
+    animation: swimming-fish2 7s infinite;
+    z-index: 200;
+  }
+
+  .tk-ika3 {
+    width: 12%;
+    position: fixed;
+    bottom: 4vh;
+  /*// change animation time for the fish to change speed */
+    animation: swimming-fish3 6s infinite;
+    z-index: 200;
+  }
+
+  .tk-ika-container--ika1 {
+    width: 10%;
+    height: 10vh;
+    padding-bottom: 5%;
+    padding-left: 40%;
+    position: absolute;
+  }
+
+  .tk-ika-container--ika2 {
+    width: 13%;
+    height: 10vh;
+    padding-bottom: 0%;
+    padding-left: 80%;
+    position: absolute;
+  }
+
+  .tk-waka {
+    width: 50%;
+    position: fixed;
+    bottom: 18vh;
+  /*// change animation time for the fish to change speed */
+    animation: moving-waka 20s infinite;
+    z-index: 200;
+  }
 }

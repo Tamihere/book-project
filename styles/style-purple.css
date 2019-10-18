@@ -62,9 +62,42 @@ img {
   }
 }
 
+/*// iPad Pro */
+@media only screen and (max-width: 1400px) {
+  .tk-purple-container--moon {
+    width: 40%;
+    left: 50%;
+  }
+}
+
+/*// iPad & iPad Mini */
+@media only screen and (max-width: 1200px) {
+  .tk-purple-container--moon {
+    width: 40%;
+    left: 50%;
+  }
+}
+
+
 @media only screen and (max-width: 800px) {
   .tk-purple-container--moon {
     width: 40%;
     left: 50%;
+  }
+}
+
+/*// iPhone 6/7/8 Plus & Pixel 2 */
+@media only screen and (max-width: 500px) {
+  .tk-purple-container--moon {
+    width: 60%;
+    left: 38%;
+  }
+}
+
+/*// iPhone X */
+@media only screen and (max-width: 400px) {
+  .tk-purple-container--moon {
+    width: 60%;
+    left: 38%;
   }
 }

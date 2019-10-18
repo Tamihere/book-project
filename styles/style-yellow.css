@@ -104,7 +104,7 @@ img {
   }
 }
 
-/*// iPad & iPad */
+/*// iPad & iPad Mini */
 @media only screen and (max-width: 1200px) {
   .tk-yellow-container--ra {
     width: 40%;
@@ -240,5 +240,20 @@ img {
       margin-left: 0vw;
       margin-bottom: 0%;
     }
+  }
+}
+
+/*// iPhone 5/SE */
+@media only screen and (max-width: 350px) {
+  .tk-yellow-container--rays {
+    width: 270%;
+    height: 105vh;
+    position: absolute;
+    bottom: -5%;
+    margin-left: -138%;
+    background-image: url("../assets/theme-yellow-rays.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 100;
   }
 }
