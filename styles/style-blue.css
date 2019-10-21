@@ -186,6 +186,53 @@ img {
   }
 }
 
+.tk-aotearoa {
+  width: 100%;
+  position: fixed;
+  bottom: -30vh;
+/*// change animation time for the fish to change speed */
+  animation: swimming-sneaky 25s infinite;
+  z-index: 200;
+}
+
+@keyframes swimming-sneaky {
+  0% {
+    margin-left: 110vw;
+    margin-bottom: 0%;
+    transform: rotate(0deg) scalex(-1);
+  }
+
+  25% {
+    margin-left: 70vw
+    margin-bottom: -40%;
+    transform: rotate(0deg) scalex(-1);
+  }
+
+  50% {
+    margin-left: 30vw;
+    margin-bottom: 2%;
+    transform: rotate(0deg) scalex(-1);
+  }
+
+  75% {
+    margin-left: 20vw;
+    margin-bottom: 7%;
+    transform: rotate(0deg) scalex(-1);
+  }
+
+  90% {
+    margin-left: -50vw;
+    margin-bottom: 1%;
+    transform: rotate(0deg) scalex(-1);
+  }
+
+  100% {
+    margin-left: -200vw;
+    margin-bottom: -20%;
+    transform: rotate(0deg) scalex(-1);
+  }
+}
+
 .tk-waka {
   width: 30%;
   position: fixed;

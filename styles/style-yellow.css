@@ -9,6 +9,10 @@ body {
   color: black;
 }
 
+body {
+  cursor : url("../assets/theme-yellow-cursor.png") 0 0, pointer;
+}
+
 img {
   width: 100%;
 }
@@ -18,6 +22,24 @@ img {
   height: 100vh;
   position: relative;
   overflow: hidden;
+}
+
+.tk-yellow{
+  width: 100%;
+  top: 0%;
+  overflow: hidden;
+  position: relative;
+  z-index: 100;
+}
+
+.tk-yellow--para {
+  width: 25%;
+  font-size: 15px;
+  padding: 15px;
+  color: black;
+/*float for sm-para-container*/
+  float: left;
+  position: absolute;
 }
 
 .tk-yellow-container {
