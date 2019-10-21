@@ -113,6 +113,35 @@ img {
     width: 14%;
     left: 1%;
   }
+
+  .tk-title {
+    width: 80%;
+    height: 15vh;
+    float: right;
+    font-size: 150px;
+    left: 18%;
+    color: black;
+    position: absolute;
+    overflow: hidden;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+}
+
+/*// iPad & iPad Mini */
+@media only screen and (max-width: 1200px) {
+  .tk-title {
+    width: 82%;
+    height: 20vh;
+    float: right;
+    font-size: 120px;
+    left: 18%;
+    color: black;
+    position: absolute;
+    overflow: hidden;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -143,6 +172,19 @@ img {
     bottom: -7vh;
     left: -1px;
   }
+
+  .tk-title {
+    width: 69%;
+    height: 25vh;
+    float: right;
+    font-size: 80px;
+    left: 30%;
+    color: black;
+    position: absolute;
+    overflow: hidden;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
 }
 
 /*// iPhone X */
@@ -166,5 +208,18 @@ img {
   .tk-menu-stem-koru--bottom {
     bottom: -7vh;
     left: -1px;
+  }
+
+  .tk-title {
+    width: 66%;
+    height: 40vh;
+    float: right;
+    font-size: 70px;
+    left: 32%;
+    color: black;
+    position: absolute;
+    overflow: hidden;
+    animation-duration: 3s;
+    animation-name: slidein;
   }
 }

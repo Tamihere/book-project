@@ -9,6 +9,10 @@ body {
   color: black;
 }
 
+body {
+  cursor : url("../assets/theme-purple-cursor.png") 32 36, pointer;
+}
+
 img {
   width: 100%;
 }
