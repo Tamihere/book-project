@@ -22,11 +22,12 @@ img {
 }
 
 .tk-title {
-  width: 50%;
-  height: 100vh;
+  width: 30%;
+  height: 84vh;
   float: right;
-  font-size: 100px;
-  left: 15%;
+  font-size: 140px;
+  top: 1%;
+  left: 13%;
   color: black;
   position: absolute;
   overflow: hidden;
@@ -115,10 +116,11 @@ img {
   }
 
   .tk-title {
-    width: 80%;
-    height: 15vh;
+    width: 40%;
+    height: 78vh;
     float: right;
-    font-size: 150px;
+    font-size: 180px;
+    top: 9%;
     left: 18%;
     color: black;
     position: absolute;
@@ -131,10 +133,11 @@ img {
 /*// iPad & iPad Mini */
 @media only screen and (max-width: 1200px) {
   .tk-title {
-    width: 82%;
-    height: 20vh;
+    width: 38%;
+    height: 76vh;
     float: right;
-    font-size: 120px;
+    font-size: 132px;
+    top: 9%;
     left: 18%;
     color: black;
     position: absolute;
@@ -174,11 +177,12 @@ img {
   }
 
   .tk-title {
-    width: 69%;
-    height: 25vh;
+    width: 60%;
+    height: 48vh;
     float: right;
     font-size: 80px;
-    left: 30%;
+    top: 5%;
+    left: 31%;
     color: black;
     position: absolute;
     overflow: hidden;
@@ -212,9 +216,10 @@ img {
 
   .tk-title {
     width: 66%;
-    height: 40vh;
+    height: 60vh;
     float: right;
     font-size: 70px;
+    top: 5%;
     left: 32%;
     color: black;
     position: absolute;
