@@ -17,14 +17,14 @@ img {
 
 .tk-page {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   overflow: hidden;
   position: relative;
 }
 
 .tk-title {
   width: 30%;
-  height: 84%;
+  height: 100%;
   float: right;
   font-size: 140px;
   top: 1%;
@@ -51,7 +51,7 @@ img {
 
 .tk-menu {
   width: 10%;
-  height: 100%;
+  height: 100vh;
   margin-left: 2.5%;
   position: relative;
   overflow: visible;
@@ -63,8 +63,8 @@ img {
 /* This is the stem height */
   height: 86vh;
 /* This is the stem space at the top */
-  margin-top: 7vh;
-  margin-bottom: 7vh;
+  margin-top: 37%;
+  margin-bottom: 7%;
   display: block;
   float: left;
   position: relative;
@@ -120,7 +120,6 @@ img {
   width: 100%;
   float: right;
   position: absolute;
-  animation: delay 5s;
 }
 
 .tk-main-container--green {
@@ -128,6 +127,7 @@ img {
   top: -10%;
   float: right;
   position: absolute;
+  z-index: 1
 }
 
 .tk-main-container--purple {
@@ -222,6 +222,8 @@ img {
 @media only screen and (max-width: 500px) {
   .tk-menu {
     width: 25%;
+    left: 4%;
+    margin-top: 3.5%;
   }
 
   .tk-menu-stem-koru {
@@ -291,6 +293,7 @@ img {
   .tk-menu {
     width: 25%;
     left: 4%;
+    padding-top: 3%;
   }
 
   .tk-menu-stem-koru {

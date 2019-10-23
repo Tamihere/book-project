@@ -50,7 +50,7 @@ img {
 
 .tk-yellow-container--rays {
   width: 100%;
-  height: 150vh;
+  height: 150%;
   position: absolute;
   bottom: -5%;
   background-image: url("../assets/theme-yellow-rays.gif");
@@ -82,6 +82,66 @@ img {
   100% {
     margin-left: 0vw;
     margin-bottom: 0%;
+  }
+}
+
+.tk-kapua1 {
+  width: 30%;
+  position: fixed;
+  left: -60%;
+  bottom: 70%;
+/*// change animation time for the fish to change speed */
+  animation: moving-clouds1 50s 3s infinite;
+  z-index: 200;
+}
+
+@keyframes moving-clouds1 {
+  0% {
+    margin-left: -60vw;
+  }
+
+  100% {
+    margin-left: 160vw;
+  }
+}
+
+.tk-kapua2 {
+  width: 30%;
+  position: fixed;
+  bottom: 75%;
+/*// change animation time for the fish to change speed */
+  animation: moving-clouds2 40s infinite;
+  z-index: 200;
+}
+
+@keyframes moving-clouds2 {
+  0% {
+    margin-left: -60vw;
+  }
+
+  100% {
+    margin-left: 160vw;
+  }
+}
+
+.tk-kapua3 {
+  width: 30%;
+  position: fixed;
+  bottom: 71%;
+/*// change animation time for the fish to change speed */
+  animation: moving-clouds3 50s infinite;
+  z-index: 200;
+}
+
+@keyframes moving-clouds3 {
+  0% {
+    margin-left: 160vw;
+    transform: rotate(0deg) scalex(-1);
+  }
+
+  100% {
+    margin-left: -60vw;
+    transform: rotate(0deg) scalex(-1);
   }
 }
 

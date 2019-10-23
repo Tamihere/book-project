@@ -49,6 +49,72 @@ img {
   }
 }
 
-@media only screen and (max-width: 400px) {
+.tk-papatuanuku {
+  width: 110%;
+  position: fixed;
+  left: -10%;
+  bottom: -1%;
+/*// change animation time for the fish to change speed */
+  animation: earthquake 5s ;
+  z-index: 200;
+}
 
+@keyframes earthquake {
+  0% {
+    margin-left: 0vw;
+    margin-bottom: -70vh;
+  }
+
+  10% {
+    margin-left: 5vw;
+  }
+
+  20% {
+    margin-left: 0vw;
+  }
+
+  30% {
+    margin-left: 5vw;
+  }
+
+  40% {
+    margin-left: 0vw;
+  }
+
+  50% {
+    margin-left: 5vw;
+  }
+
+  60% {
+    margin-left: 0vw;
+  }
+
+  70% {
+    margin-left: 5vw;
+  }
+
+  80% {
+    margin-left: 0vw;
+  }
+
+  90% {
+    margin-left: 5vw;
+  }
+
+  100% {
+    margin-left: 0vw;
+    margin-bottom: 0vh;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .tk-papatuanuku {
+    width: 200%;
+    position: fixed;
+    left: -10%;
+    bottom: -1%;
+  /*// change animation time for the fish to change speed */
+    animation: earthquake 5s ;
+    z-index: 200;
+  }
 }
