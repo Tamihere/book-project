@@ -52,7 +52,7 @@ img {
 .tk-papatuanuku {
   width: 110%;
   position: fixed;
-  left: -10%;
+  left: -9%;
   bottom: -1%;
 /*// change animation time for the fish to change speed */
   animation: earthquake 5s ;
