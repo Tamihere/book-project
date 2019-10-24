@@ -9,10 +9,6 @@ body {
   color: black;
 }
 
-body {
-  cursor : url("../assets/theme-yellow-cursor.png") 0 0, pointer;
-}
-
 img {
   width: 100%;
 }
@@ -88,39 +84,40 @@ img {
 .tk-kapua1 {
   width: 30%;
   position: fixed;
-  left: -60%;
+  left: -30%;
   bottom: 70%;
 /*// change animation time for the fish to change speed */
-  animation: moving-clouds1 50s 3s infinite;
+  animation: moving-clouds1 50s 4s infinite;
   z-index: 200;
 }
 
 @keyframes moving-clouds1 {
   0% {
-    margin-left: -60vw;
+    margin-left: -30vw;
   }
 
   100% {
-    margin-left: 160vw;
+    margin-left: 120vw;
   }
 }
 
 .tk-kapua2 {
   width: 30%;
   position: fixed;
+  left: -30%;
   bottom: 75%;
 /*// change animation time for the fish to change speed */
-  animation: moving-clouds2 40s infinite;
+  animation: moving-clouds2 40s 2s infinite;
   z-index: 200;
 }
 
 @keyframes moving-clouds2 {
   0% {
-    margin-left: -60vw;
+    margin-left: -30vw;
   }
 
   100% {
-    margin-left: 160vw;
+    margin-left: 120vw;
   }
 }
 
@@ -135,12 +132,12 @@ img {
 
 @keyframes moving-clouds3 {
   0% {
-    margin-left: 160vw;
+    margin-left: 140vw;
     transform: rotate(0deg) scalex(-1);
   }
 
   100% {
-    margin-left: -60vw;
+    margin-left: -30vw;
     transform: rotate(0deg) scalex(-1);
   }
 }

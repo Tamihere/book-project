@@ -49,6 +49,50 @@ img {
   }
 }
 
+.tk-korero {
+  width: 20%;
+  bottom: -29%;
+  left: 60%;
+  font-family: "helvetica", sans-serif;
+  overflow: hidden;
+  position: absolute;
+  transition: 1s ease;
+  animation: opacity 10s;
+  z-index: 500;
+}
+
+.tk-korero:hover {
+  bottom: 14%;
+  transition: 1s ease;
+}
+
+.tk-korero2 {
+  width: 20%;
+  bottom: -41%;
+  left: 40%;
+  font-family: "helvetica", sans-serif;
+  overflow: hidden;
+  position: absolute;
+  transition: 1s ease;
+  animation: opacity 10s;
+  z-index: 500;
+}
+
+.tk-korero2:hover {
+  bottom: 13%;
+  transition: 1s ease;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 .tk-menu {
   width: 10%;
   height: 100vh;
@@ -194,6 +238,42 @@ img {
   }
 }
 
+.tk-korero {
+  width: 20%;
+  bottom: -45%;
+  left: 77%;
+  font-family: "helvetica", sans-serif;
+  font-size: 25px;
+  overflow: hidden;
+  position: absolute;
+  transition: 1s ease;
+  animation: opacity 10s;
+  z-index: 500;
+}
+
+.tk-korero:hover {
+  bottom: 12%;
+  transition: 1s ease;
+}
+
+.tk-korero2 {
+  width: 25%;
+  bottom: -59%;
+  left: 50%;
+  font-family: "helvetica", sans-serif;
+  font-size: 25px;
+  overflow: hidden;
+  position: absolute;
+  transition: 1s ease;
+  animation: opacity 10s;
+  z-index: 500;
+}
+
+.tk-korero2:hover {
+  bottom: 11%;
+  transition: 1s ease;
+}
+
 /*// iPad & iPad Mini */
 @media only screen and (max-width: 1200px) {
   .tk-title {
@@ -208,6 +288,42 @@ img {
     overflow: hidden;
     animation-duration: 3s;
     animation-name: slidein;
+  }
+
+  .tk-korero {
+    width: 20%;
+    bottom: -49%;
+    left: 77%;
+    font-family: "helvetica", sans-serif;
+    font-size: 20px;
+    overflow: hidden;
+    position: absolute;
+    transition: 1s ease;
+    animation: opacity 10s;
+    z-index: 500;
+  }
+
+  .tk-korero:hover {
+    bottom: 13%;
+    transition: 1s ease;
+  }
+
+  .tk-korero2 {
+    width: 25%;
+    bottom: -64%;
+    left: 50%;
+    font-family: "helvetica", sans-serif;
+    font-size: 20px;
+    overflow: hidden;
+    position: absolute;
+    transition: 1s ease;
+    animation: opacity 10s;
+    z-index: 500;
+  }
+
+  .tk-korero2:hover {
+    bottom: 13%;
+    transition: 1s ease;
   }
 }
 
@@ -229,7 +345,7 @@ img {
   .tk-menu-stem-koru {
     position: absolute;
   /* This is the size of the koru, relative to the stem size */
-    width: 302%;
+    width: 298%;
   }
 
   .tk-menu-stem-koru--top {
@@ -247,8 +363,8 @@ img {
     height: 48vh;
     float: right;
     font-size: 80px;
-    top: 5%;
-    left: 31%;
+    top: 8%;
+    left: 32%;
     color: black;
     position: absolute;
     overflow: hidden;
@@ -286,6 +402,43 @@ img {
     float: right;
     position: absolute;
   }
+
+  .tk-korero {
+    width: 50%;
+    bottom: -41%;
+    left: 50%;
+    font-family: "helvetica", sans-serif;
+    font-size: 15px;
+    overflow: hidden;
+    position: absolute;
+    transition: 1s ease;
+    animation: opacity 10s;
+    z-index: 500;
+  }
+
+  .tk-korero:hover {
+    bottom: 14%;
+    transition: 1s ease;
+  }
+
+  .tk-korero2 {
+    width: 50%;
+    bottom: -53%;
+    left: 40%;
+    font-family: "helvetica", sans-serif;
+    font-size: 15px;
+    overflow: hidden;
+    position: absolute;
+    transition: 1s ease;
+    animation: opacity 10s;
+    z-index: 500;
+  }
+
+  .tk-korero2:hover {
+    bottom: 6%;
+    transition: 1s ease;
+    z-index: 400;
+  }
 }
 
 /*// iPhone X */
@@ -293,7 +446,6 @@ img {
   .tk-menu {
     width: 25%;
     left: 4%;
-    padding-top: 3%;
   }
 
   .tk-menu-stem-koru {
@@ -316,7 +468,7 @@ img {
     width: 66%;
     height: 60vh;
     float: right;
-    font-size: 70px;
+    font-size: 80px;
     top: 5%;
     left: 32%;
     color: black;
@@ -355,5 +507,42 @@ img {
     right: -50%;
     float: right;
     position: absolute;
+  }
+
+  .tk-korero {
+    width: 50%;
+    bottom: -39%;
+    left: 50%;
+    font-family: "helvetica", sans-serif;
+    font-size: 15px;
+    overflow: hidden;
+    position: absolute;
+    transition: 1s ease;
+    animation: opacity 10s;
+    z-index: 500;
+  }
+
+  .tk-korero:hover {
+    bottom: 19%;
+    transition: 1s ease;
+  }
+
+  .tk-korero2 {
+    width: 50%;
+    bottom: -50%;
+    left: 40%;
+    font-family: "helvetica", sans-serif;
+    font-size: 15px;
+    overflow: hidden;
+    position: absolute;
+    transition: 1s ease;
+    animation: opacity 10s;
+    z-index: 500;
+  }
+
+  .tk-korero2:hover {
+    bottom: 12%;
+    transition: 1s ease;
+    z-index: 400;
   }
 }

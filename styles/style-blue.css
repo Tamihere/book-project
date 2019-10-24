@@ -9,10 +9,6 @@ body {
   color: black;
 }
 
-body {
-  cursor : url("../assets/theme-blue-cursor.png") 30 70, pointer;
-}
-
 img {
   width: 100%;
 }
