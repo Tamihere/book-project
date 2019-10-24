@@ -107,6 +107,18 @@ img {
   }
 }
 
+@media only screen and (max-width: 500px) {
+  .tk-papatuanuku {
+    width: 200%;
+    position: fixed;
+    left: -90%;
+    bottom: -1%;
+  /*// change animation time for the fish to change speed */
+    animation: earthquake 5s ;
+    z-index: 200;
+  }
+}
+
 @media only screen and (max-width: 400px) {
   .tk-papatuanuku {
     width: 200%;

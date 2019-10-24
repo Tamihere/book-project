@@ -181,6 +181,67 @@ img {
       margin-bottom: 0%;
     }
   }
+
+  .tk-kapua1 {
+    width: 40%;
+    position: fixed;
+    left: -40%;
+    bottom: 70%;
+  /*// change animation time for the fish to change speed */
+    animation: moving-clouds1 50s 4s infinite;
+    z-index: 200;
+  }
+
+  @keyframes moving-clouds1 {
+    0% {
+      margin-left: -40vw;
+    }
+
+    100% {
+      margin-left: 150vw;
+    }
+  }
+
+  .tk-kapua2 {
+    width: 40%;
+    position: fixed;
+    left: -40%;
+    bottom: 75%;
+  /*// change animation time for the fish to change speed */
+    animation: moving-clouds2 40s 2s infinite;
+    z-index: 200;
+  }
+
+  @keyframes moving-clouds2 {
+    0% {
+      margin-left: -40vw;
+    }
+
+    100% {
+      margin-left: 150vw;
+    }
+  }
+
+  .tk-kapua3 {
+    width: 40%;
+    position: fixed;
+    bottom: 71%;
+  /*// change animation time for the fish to change speed */
+    animation: moving-clouds3 50s infinite;
+    z-index: 200;
+  }
+
+  @keyframes moving-clouds3 {
+    0% {
+      margin-left: 160vw;
+      transform: rotate(0deg) scalex(-1);
+    }
+
+    100% {
+      margin-left: -60vw;
+      transform: rotate(0deg) scalex(-1);
+    }
+  }
 }
 
 /*// iPad & iPad Mini */
@@ -279,6 +340,67 @@ img {
       margin-bottom: 0%;
     }
   }
+
+  .tk-kapua1 {
+    width: 90%;
+    position: fixed;
+    left: -90%;
+    bottom: 70%;
+  /*// change animation time for the fish to change speed */
+    animation: moving-clouds1 50s 4s infinite;
+    z-index: 200;
+  }
+
+  @keyframes moving-clouds1 {
+    0% {
+      margin-left: -40vw;
+    }
+
+    100% {
+      margin-left: 190vw;
+    }
+  }
+
+  .tk-kapua2 {
+    width: 90%;
+    position: fixed;
+    left: -90%;
+    bottom: 75%;
+  /*// change animation time for the fish to change speed */
+    animation: moving-clouds2 40s 2s infinite;
+    z-index: 200;
+  }
+
+  @keyframes moving-clouds2 {
+    0% {
+      margin-left: -40vw;
+    }
+
+    100% {
+      margin-left: 190vw;
+    }
+  }
+
+  .tk-kapua3 {
+    width: 90%;
+    position: fixed;
+    bottom: 71%;
+  /*// change animation time for the fish to change speed */
+    animation: moving-clouds3 50s infinite;
+    z-index: 200;
+  }
+
+  @keyframes moving-clouds3 {
+    0% {
+      margin-left: 160vw;
+      transform: rotate(0deg) scalex(-1);
+    }
+
+    100% {
+      margin-left: -90vw;
+      transform: rotate(0deg) scalex(-1);
+    }
+  }
 }
 
 /*// iPhone X */
@@ -318,6 +440,67 @@ img {
     100% {
       margin-left: 0vw;
       margin-bottom: 0%;
+    }
+  }
+
+  .tk-kapua1 {
+    width: 90%;
+    position: fixed;
+    left: -90%;
+    bottom: 70%;
+  /*// change animation time for the fish to change speed */
+    animation: moving-clouds1 50s 4s infinite;
+    z-index: 200;
+  }
+
+  @keyframes moving-clouds1 {
+    0% {
+      margin-left: -40vw;
+    }
+
+    100% {
+      margin-left: 190vw;
+    }
+  }
+
+  .tk-kapua2 {
+    width: 90%;
+    position: fixed;
+    left: -90%;
+    bottom: 75%;
+  /*// change animation time for the fish to change speed */
+    animation: moving-clouds2 40s 2s infinite;
+    z-index: 200;
+  }
+
+  @keyframes moving-clouds2 {
+    0% {
+      margin-left: -40vw;
+    }
+
+    100% {
+      margin-left: 190vw;
+    }
+  }
+
+  .tk-kapua3 {
+    width: 90%;
+    position: fixed;
+    bottom: 71%;
+  /*// change animation time for the fish to change speed */
+    animation: moving-clouds3 50s infinite;
+    z-index: 200;
+  }
+
+  @keyframes moving-clouds3 {
+    0% {
+      margin-left: 160vw;
+      transform: rotate(0deg) scalex(-1);
+    }
+
+    100% {
+      margin-left: -90vw;
+      transform: rotate(0deg) scalex(-1);
     }
   }
 }
