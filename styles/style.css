@@ -51,7 +51,8 @@ img {
 
 .tk-korero {
   width: 20%;
-  bottom: -60%;
+  height: 100%;
+  top: 78%;
   left: 60%;
   font-family: "helvetica", sans-serif;
   overflow: hidden;
@@ -62,13 +63,14 @@ img {
 }
 
 .tk-korero:hover {
-  bottom: 14%;
+  top: 0%;
   transition: 1s ease;
 }
 
 .tk-korero2 {
   width: 20%;
-  bottom: -87%;
+  height: 150%;
+  top: 78%;
   left: 40%;
   font-family: "helvetica", sans-serif;
   overflow: hidden;
@@ -79,7 +81,7 @@ img {
 }
 
 .tk-korero2:hover {
-  bottom: 13%;
+  top: -20%;
   transition: 1s ease;
 }
 
