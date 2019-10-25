@@ -107,7 +107,7 @@ img {
   left: -30%;
   bottom: 75%;
 /*// change animation time for the fish to change speed */
-  animation: moving-clouds2 40s 2s infinite;
+  animation: moving-clouds2 40s 3s infinite;
   z-index: 200;
 }
 
