@@ -27,8 +27,8 @@ img {
   height: 100%;
   float: right;
   font-size: 140px;
-  top: 1%;
-  left: 13%;
+  top: 3%;
+  left: 20%;
   color: black;
   position: absolute;
   overflow: hidden;
@@ -52,9 +52,10 @@ img {
 .tk-korero {
   width: 20%;
   height: 100%;
-  top: 78%;
+  top: 77%;
   left: 60%;
   font-family: "helvetica", sans-serif;
+  font-size: 15px;
   overflow: hidden;
   position: absolute;
   transition: 1s ease;
@@ -63,16 +64,17 @@ img {
 }
 
 .tk-korero:hover {
-  top: 0%;
+  top: 14%;
   transition: 1s ease;
 }
 
 .tk-korero2 {
   width: 20%;
   height: 150%;
-  top: 78%;
+  top: 77%;
   left: 40%;
   font-family: "helvetica", sans-serif;
+  font-size: 15px;
   overflow: hidden;
   position: absolute;
   transition: 1s ease;
@@ -81,7 +83,7 @@ img {
 }
 
 .tk-korero2:hover {
-  top: -20%;
+  top: -14%;
   transition: 1s ease;
 }
 
@@ -93,6 +95,9 @@ img {
   to {
     opacity: 1;
   }
+}
+a {
+  color: black;
 }
 
 .tk-menu {
