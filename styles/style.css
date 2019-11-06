@@ -27,7 +27,7 @@ img {
   height: 100%;
   float: right;
   font-size: 140px;
-  top: 3%;
+  top: 9%;
   left: 20%;
   color: black;
   position: absolute;
@@ -53,7 +53,7 @@ img {
   width: 20%;
   height: 100%;
   top: 77%;
-  left: 60%;
+  right: 0%;
   font-family: "helvetica", sans-serif;
   font-size: 15px;
   overflow: hidden;
@@ -64,7 +64,7 @@ img {
 }
 
 .tk-korero:hover {
-  top: 14%;
+  top: 18%;
   transition: 1s ease;
 }
 
@@ -74,7 +74,7 @@ img {
   top: 77%;
   left: 40%;
   font-family: "helvetica", sans-serif;
-  font-size: 15px;
+  font-size: 25px; /* This is the font size that's being applied */
   overflow: hidden;
   position: absolute;
   transition: 1s ease;
@@ -83,7 +83,7 @@ img {
 }
 
 .tk-korero2:hover {
-  top: -14%;
+  top: -7%;
   transition: 1s ease;
 }
 
@@ -267,8 +267,8 @@ a {
   width: 25%;
   bottom: -59%;
   left: 50%;
-  font-family: "helvetica", sans-serif;
-  font-size: 25px;
+  /* font-family: "helvetica", sans-serif;
+  font-size: 25px; */
   overflow: hidden;
   position: absolute;
   transition: 1s ease;
@@ -319,8 +319,8 @@ a {
     width: 25%;
     bottom: -64%;
     left: 50%;
-    font-family: "helvetica", sans-serif;
-    font-size: 20px;
+    /* font-family: "helvetica", sans-serif;
+    font-size: 20px; */
     overflow: hidden;
     position: absolute;
     transition: 1s ease;
@@ -433,7 +433,7 @@ a {
     bottom: -53%;
     left: 40%;
     font-family: "helvetica", sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     overflow: hidden;
     position: absolute;
     transition: 1s ease;

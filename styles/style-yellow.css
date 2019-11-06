@@ -45,9 +45,10 @@ img {
 }
 
 .tk-yellow-container--rays {
-  width: 100%;
+  width: 110%;
   height: 150%;
   position: absolute;
+  margin-left: -5%;
   bottom: -5%;
   background-image: url("../assets/theme-yellow-rays.gif");
   background-size: cover;
