@@ -518,8 +518,8 @@ a {
 
   .tk-korero {
     width: 50%;
-    bottom: -39%;
-    left: 50%;
+    top: 93%;
+    left: 51%;
     font-family: "helvetica", sans-serif;
     font-size: 15px;
     overflow: hidden;
@@ -530,14 +530,14 @@ a {
   }
 
   .tk-korero:hover {
-    bottom: 19%;
+    top: 35%;
     transition: 1s ease;
   }
 
   .tk-korero2 {
     width: 50%;
-    bottom: -50%;
-    left: 40%;
+    top: 93%;
+    left: 39%;
     font-family: "helvetica", sans-serif;
     font-size: 15px;
     overflow: hidden;
@@ -548,7 +548,7 @@ a {
   }
 
   .tk-korero2:hover {
-    bottom: 12%;
+    top: 35%;
     transition: 1s ease;
     z-index: 400;
   }
